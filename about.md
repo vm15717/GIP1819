@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
+title: Abaqus Python Scripting
 ---
 
-This is a project page
-##Linking Abaqus and Python
+Here, I discuss some of the key programming macros that can be used to input and output results in Abaqus and Python
+
