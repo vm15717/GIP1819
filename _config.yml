@@ -6,3 +6,7 @@ Group Members: Tom Wilkinson, Lucian Cabrini, James Foster, Kenneth Chotitawan
 markdown: kramdown
 theme: minima
 
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true 
