@@ -1,6 +1,6 @@
 
 ## Nonlinear Dynamics of Wind turbines with large deflections  
-### Group Members: Tom Wilkinson, James Foster, Rishindra Melanathuru, Lucian Cabrini, Kenneth Chotitawan
+### **Group Members**: Tom Wilkinson, James Foster, Rishindra Melanathuru, Lucian Cabrini, Kenneth Chotitawan
 ### Aims of the project:
 Perform experimental work which accurately measures the nonlinear behaviour of a flexible cantilever beam resembling a wind turbine blade, so the results become a reference for other simulation models. Expected nonlinear behaviour include large bending deflections and bending-torsional mode coupling.
 Develop an analytical model that takes into account torsional-bending coupling and is representative of the experimental model.
