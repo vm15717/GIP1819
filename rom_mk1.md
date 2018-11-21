@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ## Reduced Order Modelling 
 Steps:
 1. Apply forces to the finite element model
