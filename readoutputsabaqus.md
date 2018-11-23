@@ -18,7 +18,7 @@ odbName='__JobName__'
 odb=openOdb(odbName+'.odb',readOnly=True)
 step1=odb.steps['__StepName__']
 frame=step1.frames['__FrameNumber__']
-#Field Outputs 'U' - Displacement 'RF' - Reaction Forces 'S' - Stress Output
-displ=frame.fieldOutputs['U']
+#Field Outputs 'U' - Displacement 'RF' - Reaction Forces 'S' - Stress Output etc..
+displ=frame.fieldOutputs['__FieldOutputKey__']
 displvalues=displ.values
 ```
