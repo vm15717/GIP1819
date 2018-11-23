@@ -1,8 +1,7 @@
 ---
 layout: page
 ---
-## Abaqus Macros
-### Python Scripting in Abaqus
+## Python Scripting in Abaqus
 ### Input Forces into Abaqus
 Steps:  
 1.Create a Static Step  
