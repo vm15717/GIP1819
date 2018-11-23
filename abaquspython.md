@@ -7,7 +7,9 @@ layout: page
 Steps:  
 1.Create a Static Step  
 ```python
-s = "Python syntax highlighting"
+mdb.models['__ModelName__'].StaticStep(name='__StepName__', previous='__PreviousStepName__')   
+#Get Nodes from the Instance
+instanceNodes = mdb.models['__ModelName__'].rootAssembly.instances['__InstanceName__'].nodes
 print s
 ```
 2.Create a NodeSet and Nodelabel  
