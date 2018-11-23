@@ -8,14 +8,22 @@ Steps:
 1.Create a Static Step  
 ```python
 mdb.models['__ModelName__'].StaticStep(name='__StepName__', previous='__PreviousStepName__')   
+```
+2.Create a NodeSet and Nodelabel or Extract Nodes from Existing Instance
+```python
 #Get Nodes from the Instance
 instanceNodes = mdb.models['__ModelName__'].rootAssembly.instances['__InstanceName__'].nodes
+```
+3.Import Forces
+```python
 #Import Forces from a CSV file (if available)
 file=csv.reader(open('filename','r'))
-#Apply forces to each node
 n=[]
 for row in file:
         n.append(row)
+```
+4.Apply forces to each node
+```python
 #Loop through each node label to apply force to each node
 for i in range(0,len(n)):
         nodeLabel=[i]
@@ -29,9 +37,5 @@ for i in range(0,len(n)):
         mdb.models['__ModelName'].ConcentratedForce(name='__LoadName__', createStepName='__StepName__', 
            region=myRegion, cf1=cf11, cf2=cf22, cf3=cf33, distributionType=UNIFORM, field='', 
            localCsys=None)
-print s
-```
-2.Create a NodeSet and Nodelabel  
-3.Create a region using the nodeset   
-4.Apply forces to nodes  
+```   
 
