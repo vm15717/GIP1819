@@ -9,6 +9,3 @@ Steps:
 4. Repeat steps from 1 till 3 for different forces
 5. Perform a curvefit to find the coefficients of nonlinear terms using the modal forces and modal displacements
 ## Theory 
-{% katex %}
-c = \pm\sqrt{a^2 + b^2}
-{% endkatex %}
