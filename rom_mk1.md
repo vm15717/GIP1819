@@ -14,8 +14,8 @@ $$
 f_{q1}=\omega_{1}^2q_{1}+\alpha_{1}q_{1}^{2}+\alpha_{2}q_{1}q_{2}+\alpha_{3}q_{2}^2+\alpha_{4}q_{1}^3+\alpha_{5}q_{1}^2q_{2}+\alpha_{6}q_{1}q_{2}^2+\alpha_{7}q_{2}^3-F_{q1} \\f_{q2}=\omega_{2}^2q_{2}+\beta_{1}q_{1}^{2}+\beta_{2}q_{1}q_{2}+\beta_{3}q_{2}^2+\beta_{4}q_{1}^3+\beta_{5}q_{1}^2q_{2}+\beta_{6}q_{1}q_{2}^2+\beta_{7}q_{2}^3-F_{q2}
 $$
 where $$q_{1}$$ and $$q_{2}$$ are the modal displacements. $$\omega_{1}$$ and $$\omega_{2}$$ are the natural frequencies of the system.
-$$\alpha_{i}$$s and $$\gamma_{i}$$s are the coefficients of the higher order terms.
-Regression analysis was done using the data collected to estimate the coefficients $$\alpha_{1}$$ and $$\alpha_{2}$$.
+$$\alpha_{i}$$s and $$\gamma_{i}$$s are the coefficients of the higher order terms.  
+Regression analysis was done using the data collected to estimate the coefficients $$\alpha_{1}$$ and $$\alpha_{2}$$.  
 $$
 \begin{bmatrix}
 \hat{F_{1}}^{(1)}-k_{1}\hat{q_{1}}^{(1)} \\ \hat{F_{1}}^{(2)}-k_{1}\hat{q_{1}}^{(2)} \\ \hat{F_{1}}^{(3)}-k_{1}\hat{q_{1}}^{(3)} \\...\\\hat{F_{1}^{(i)}}-k_{1}\hat{q_{1}}^{(i)}\\...\\...
