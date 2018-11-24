@@ -11,7 +11,7 @@ Steps:
 ## Theory 
 Consider a 2 DOF system with the following equations describing the dynamics
 $$
-f_{q1}=\omega_{1}^2q_{1}+\alpha_{1}q_{1}^{2}+\alpha_{2}q_{1}q_{2}+\alpha_{3}q_{2}^2+\alpha_{4}q_{1}^3+\alpha_{5}q_{1}^2q_{2}+\alpha_{6}q_{1}q_{2}^2+\alpha_{7}q_{2}^3-F_{q1} \\f_{q2}=\omega_{2}^2q_{2}+\beta_{1}q_{1}^{2}+\beta_{2}q_{1}q_{2}+\beta_{3}q_{2}^2+\beta_{4}q_{1}^3+\beta_{5}q_{1}^2q_{2}+\beta_{6}q_{1}q_{2}^2+\beta_{7}q_{2}^3-F_{q2}
+f_{q1}=\omega_{1}^2q_{1}+\alpha_{1}q_{1}^{2}+\alpha_{2}q_{1}q_{2}+\alpha_{3}q_{2}^2+\alpha_{4}q_{1}^3+\alpha_{5}q_{1}^2q_{2}+\alpha_{6}q_{1}q_{2}^2+\alpha_{7}q_{2}^3 \\f_{q2}=\omega_{2}^2q_{2}+\beta_{1}q_{1}^{2}+\beta_{2}q_{1}q_{2}+\beta_{3}q_{2}^2+\beta_{4}q_{1}^3+\beta_{5}q_{1}^2q_{2}+\beta_{6}q_{1}q_{2}^2+\beta_{7}q_{2}^3
 $$
 where $$q_{1}$$ and $$q_{2}$$ are the modal displacements. $$\omega_{1}$$ and $$\omega_{2}$$ are the natural frequencies of the system.
 $$\alpha_{i}$$s and $$\gamma_{i}$$s are the coefficients of the higher order terms.  
