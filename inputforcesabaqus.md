@@ -31,10 +31,10 @@ for i in range(0,len(n)):
         #Create a mesh node object for each node label
         meshNodeObj = instanceNodes.sequenceFromLabels(nodeLabel)
         #Create a region using the mesh node object. Do not forget to import regionToolSet at the start
+        #import regionToolSet
         myRegion = regionToolset.Region(nodes=meshNodeObj)
         #Apply forces
         mdb.models['__ModelName'].ConcentratedForce(name='__LoadName__', createStepName='__StepName__', 
            region=myRegion, cf1=cf11, cf2=cf22, cf3=cf33, distributionType=UNIFORM, field='', 
            localCsys=None)
 ```   
-
