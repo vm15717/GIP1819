@@ -4,7 +4,7 @@ layout: page
 # Linear Modal Transform
 Consider the following second order differential equation  
 $$
-\mathbf{M}\ddot{x}+\mathbf{C}\dot{x}+\mathbf{K}x+\mathbf{Nu(x)}=0=f_{x}
+\mathbf{M}\ddot{x}+\mathbf{C}\dot{x}+\mathbf{K}x+\mathbf{Nu(x)}=0=f_{x}  
 $$
 the matrix equation is transformed using $$x=\mathbf{\Phi} q\\$$
 $$
