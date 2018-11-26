@@ -18,5 +18,5 @@ x=\mathbf{\Phi} q
 $$
 then 
 $$
-f_{x}={\mathbf{\Phi}^{\mathrm{T}}}^{-1}f_{q}
+f_{x}={(\mathbf{\Phi}^{\mathrm{T}})}^{-1}f_{q}
 $$
