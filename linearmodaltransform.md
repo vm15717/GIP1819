@@ -6,7 +6,7 @@ Consider the following second order differential equation
 $$
 \mathbf{M}\ddot{x}+\mathbf{C}\dot{x}+\mathbf{K}x+\mathbf{Nu(x)}=0=f_{x}  
 $$
-the matrix equation is transformed using $$x=\mathbf{\Phi} q\\$$
+the matrix equation is transformed using $$x=\mathbf{\Phi} q\\$$  
 $$
 \mathbf{\Phi}\ddot{q}+\mathbf{M^{-1}C}\mathbf{\Phi}\dot{q}+\mathbf{M^{-1}K}\mathbf{\Phi}q+\mathbf{Nu(\Phi \mathit{q})}=0\\
 \mathbf{\Phi}^{\mathrm{T}}\mathbf{\Phi}\ddot{q}+\mathbf{\Phi}^{\mathrm{T}}\mathbf{M^{-1}C}\mathbf{\Phi}\dot{q}+\mathbf{\Phi}^{\mathrm{T}}\mathbf{M^{-1}K}\mathbf{\Phi}q+\mathbf{\Phi}^{\mathrm{T}}\mathbf{Nu(\Phi \mathit{q})}=0\\
