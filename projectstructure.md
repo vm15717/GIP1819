@@ -1,6 +1,6 @@
 ---
-layout: page
+layout: post
 ---
 ## Project Structure
 Abaqus, Python and MATLAB  
-![Kiku](overviewmk1.png)
+![Overview](overviewmk1.png)
