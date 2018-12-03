@@ -4,7 +4,7 @@ Group Members: Tom Wilkinson, Lucian Cabrini, James Foster, Kenneth Chotitawan
 
 #Build Settings
 markdown: kramdown
-theme: minima
+theme: jekyll-whiteglass
 
 titles_from_headings:
   enabled:     true
