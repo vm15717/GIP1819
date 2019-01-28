@@ -3,15 +3,17 @@ layout: page
 ---
 ## Reduced Order Modelling 
 Steps:
+/*
 1. Apply forces to the finite element model
 2. Get displacement outputs from the finite element model
 3. Convert forces and displacements to modal forces and modal displacements
 4. Repeat steps from 1 till 3 for different forces
 5. Perform a curvefit to find the coefficients of nonlinear terms using the modal forces and modal displacements
+ */
 ## Theory 
 There two methods currently used in deriving reduced order models. They are:
-..1. AMF - Applied Modal Force and 
-..2. EMD- Enforced Modal Displacement  
+1. AMF - Applied Modal Force and 
+2. EMD - Enforced Modal Displacement  
 In the AMF method, a set of forces are applied to the finite element model. A static analysis is done and the displacements are used in finding the Reduced Order Model which is described below.  
 Consider a 2 DOF system with the following equations describing the dynamics
 $$
